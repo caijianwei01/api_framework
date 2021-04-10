@@ -1,0 +1,5 @@
+allure的使用：
+1、下载allure 并将bin目录添加到环境变量path中，添加以后输入cmd输入allure不报错，环境就搭建好了
+版本下载地址：https://github.com/allure-framework/allure2/releases
+2、allure-pytest包安装
+pip install allure-pytest

@@ -1,0 +1,58 @@
+{
+  "uid" : "fc5b6c902182f9c3",
+  "name" : "test_book_token[case1]",
+  "fullName" : "tests.test_book_token#test_book_token",
+  "historyId" : "239bec9c631a1bf1c0c6adf45c3e3535",
+  "time" : {
+    "start" : 1618039082998,
+    "stop" : 1618039083008,
+    "duration" : 10
+  },
+  "description" : "\n    1、先获取到所有前置测试点的测试用例\n    2、执行前置测试点,获取结果信息\n    3、拿它的结果信息替换对应测试点的变量\n    4、执行当前案例\n    ",
+  "descriptionHtml" : "<pre><code>1、先获取到所有前置测试点的测试用例\n2、执行前置测试点,获取结果信息\n3、拿它的结果信息替换对应测试点的变量\n4、执行当前案例\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_book_token"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CNBC0F2"
+  }, {
+    "name" : "thread",
+    "value" : "2132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_book_token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'测试用例ID': 'book_search', '模块': '书籍管理', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '仙逆', '是否执行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc5b6c902182f9c3.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_search', '模块': '书籍管理', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '仙逆', '是否执行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200}" ]
+}

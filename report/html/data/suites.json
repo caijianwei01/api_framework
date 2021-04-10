@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_book_token",
+      "children" : [ {
+        "name" : "test_book_token[case0]",
+        "uid" : "2f5269baae4f754d",
+        "parentUid" : "bdbb8bb5e4be20075775f4ed0752c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618039082988,
+          "stop" : 1618039082998,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登录', '接口名称': '登录授权', '请求地址': 'http://127.0.0.1:5000/auth', '前置条件': '', '请求方法': 'post', '请求参数类型': 'json', '请求参数': {'username': 'cjw', 'password': 'cjw123'}, '期望结果': '', '是否执行': 'y', '请求头': '', '状态码': 200}" ]
+      }, {
+        "name" : "test_book_token[case1]",
+        "uid" : "fc5b6c902182f9c3",
+        "parentUid" : "bdbb8bb5e4be20075775f4ed0752c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618039082998,
+          "stop" : 1618039083008,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_search', '模块': '书籍管理', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '仙逆', '是否执行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200}" ]
+      }, {
+        "name" : "test_book_token[case2]",
+        "uid" : "8f7af7b7eb18236c",
+        "parentUid" : "bdbb8bb5e4be20075775f4ed0752c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618039083018,
+          "stop" : 1618039083028,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_add', '模块': '书籍管理', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': {'id': 3, 'author': '钱钟书', 'name': '围城', 'done': True}, '期望结果': '添加书籍成功', '是否执行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200}" ]
+      }, {
+        "name" : "test_book_token[case3]",
+        "uid" : "4f326f095446feca",
+        "parentUid" : "bdbb8bb5e4be20075775f4ed0752c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618039083028,
+          "stop" : 1618039083038,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_search_one', '模块': '书籍管理', '接口名称': '查看书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{book_id}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '围城', '是否执行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200}" ]
+      }, {
+        "name" : "test_book_token[case4]",
+        "uid" : "be4133ecab57f892",
+        "parentUid" : "bdbb8bb5e4be20075775f4ed0752c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618039083038,
+          "stop" : 1618039083048,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_update', '模块': '书籍管理', '接口名称': '修改书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{book_id}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': {'id': 3, 'author': '天蚕土豆', 'name': '万相之王', 'done': True}, '期望结果': '更新书的信息成功', '是否执行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200}" ]
+      }, {
+        "name" : "test_book_token[case5]",
+        "uid" : "b92fb12788f9969",
+        "parentUid" : "bdbb8bb5e4be20075775f4ed0752c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618039083048,
+          "stop" : 1618039083058,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_delete', '模块': '书籍管理', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{book_id}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '删除书籍成功', '是否执行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200}" ]
+      } ],
+      "uid" : "bdbb8bb5e4be20075775f4ed0752c365"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ]
+}

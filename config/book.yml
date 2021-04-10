@@ -1,0 +1,13 @@
+book_002:
+  data:
+    author: "钱钟书"
+    done: True
+    id: 3
+    name: "围城"
+---
+book_004:
+  data:
+    author: "钱钟书"
+    done: True
+    name: "红玫瑰"
+

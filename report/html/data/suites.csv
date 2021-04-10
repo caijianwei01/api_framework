@@ -1,0 +1,37 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Apr 10 15:18:03 CST 2021","Sat Apr 10 15:18:03 CST 2021","10","tests","test_book_token","","","","test_book_token[case2]","
+    1、先获取到所有前置测试点的测试用例
+    2、执行前置测试点,获取结果信息
+    3、拿它的结果信息替换对应测试点的变量
+    4、执行当前案例
+    "
+"passed","Sat Apr 10 15:18:03 CST 2021","Sat Apr 10 15:18:03 CST 2021","10","tests","test_book_token","","","","test_book_token[case3]","
+    1、先获取到所有前置测试点的测试用例
+    2、执行前置测试点,获取结果信息
+    3、拿它的结果信息替换对应测试点的变量
+    4、执行当前案例
+    "
+"passed","Sat Apr 10 15:18:03 CST 2021","Sat Apr 10 15:18:03 CST 2021","10","tests","test_book_token","","","","test_book_token[case5]","
+    1、先获取到所有前置测试点的测试用例
+    2、执行前置测试点,获取结果信息
+    3、拿它的结果信息替换对应测试点的变量
+    4、执行当前案例
+    "
+"passed","Sat Apr 10 15:18:02 CST 2021","Sat Apr 10 15:18:03 CST 2021","10","tests","test_book_token","","","","test_book_token[case1]","
+    1、先获取到所有前置测试点的测试用例
+    2、执行前置测试点,获取结果信息
+    3、拿它的结果信息替换对应测试点的变量
+    4、执行当前案例
+    "
+"passed","Sat Apr 10 15:18:03 CST 2021","Sat Apr 10 15:18:03 CST 2021","10","tests","test_book_token","","","","test_book_token[case4]","
+    1、先获取到所有前置测试点的测试用例
+    2、执行前置测试点,获取结果信息
+    3、拿它的结果信息替换对应测试点的变量
+    4、执行当前案例
+    "
+"passed","Sat Apr 10 15:18:02 CST 2021","Sat Apr 10 15:18:02 CST 2021","10","tests","test_book_token","","","","test_book_token[case0]","
+    1、先获取到所有前置测试点的测试用例
+    2、执行前置测试点,获取结果信息
+    3、拿它的结果信息替换对应测试点的变量
+    4、执行当前案例
+    "

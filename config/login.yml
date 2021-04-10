@@ -1,0 +1,8 @@
+login_01:
+  params:
+    email: "111@test.com"
+    password: "111111"
+    icode: "042D5F8F2ECD35C3"
+  expect:
+    code: 0
+    msg: "请求成功"
